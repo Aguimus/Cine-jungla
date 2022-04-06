@@ -356,7 +356,7 @@ create table RECCOMIDAS (
    IDRECCOMIDAS         serial          not null,
    IDMULTIPLEX          VARCHAR(5)           not null,
    fecha                DATE           not null,
-	valor               numeric         not null
+	valor               numeric         not null,
    constraint PK_RECCOMIDAS primary key (IDRECCOMIDAS)
 );
 
